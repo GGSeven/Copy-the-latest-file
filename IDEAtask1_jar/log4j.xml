@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><!DOCTYPE log4j:configuration SYSTEM "log4j.dtd">
+<log4j:configuration xmlns:log4j="http://jakarta.apache.org/log4j/"> 
+
+<appender class="org.apache.log4j.ConsoleAppender" name="myConsole">
+	<param name="Threshold" value="INFO"/>
+	<layout class="org.apache.log4j.PatternLayout">
+    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%P][%T] [%t %c] %-5p - %m %n"/>
+		</layout>
+</appender>	
+
+
+<appender class="com.una.common.log.RollingFileAppenderEx" name="myFileSize">
+		<param name="KeepType" value="file"/>
+		<param name="Compress" value="true"/>
+		<param name="Encoding" value="UTF-8" />  
+		<param name="Threshold" value="ALL"/>
+        <param name="File" value="D:\\IDEAtask1\\loginfo.log" />
+		<param name="MaxFileSize" value="20MB"/>
+		<param name="MaxBackupIndex" value="90"></param> 
+		<layout class="org.apache.log4j.PatternLayout">
+    <param name="ConversionPattern" value="%d{yyyy-MM-dd HH:mm:ss} [%P][%T] [%t %c] %p  %m %n"/>
+		</layout>
+	</appender>
+
+
+
+  <logger name="org.apache.activemq.transport.failover"
+		additivity="false">
+		<level value="error" />
+		<appender-ref ref="myFileSize" />
+	</logger>
+	<logger name="org.apache" additivity="false">
+		<level value="info" />
+		<appender-ref ref="myFileSize" />
+	</logger>
+	<logger name="org.springframework" additivity="false">
+		<level value="info" />
+		<appender-ref ref="myFileSize" />
+	</logger>
+	<logger name="org.quartz" additivity="false">
+		<level value="info" />
+		<appender-ref ref="myFileSize" />
+	</logger>
+	<logger name="java.sql" additivity="false">
+		<level value="info" />
+		<appender-ref ref="myFileSize" />
+	</logger>
+
+	<root>
+		<priority value="info"/>
+		<appender-ref ref="myConsole"/>
+		<appender-ref ref="myFileSize"/>
+		</root>
+</log4j:configuration>
