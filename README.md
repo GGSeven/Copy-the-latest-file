@@ -4,3 +4,5 @@
 将版本文件名字设置为8位数字形式,例如版本日期为2020.4.25则将文件名字更改为:20200425
 
 ![image](https://user-images.githubusercontent.com/66481676/165060755-b9b14ad0-a6cd-4101-953f-9f3647325783.png)
+
+在可以直接将log4j.xml放到同一目录下，运行命令java -jar IDEAtask1.jar即可运行
