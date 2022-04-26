@@ -1,0 +1,226 @@
+2022-04-22 17:52:08 [10412][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  sqlserver定时  中错误文件名格式为：新建文件夹 
+2022-04-22 18:28:27 [8248][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  sqlserver定时  中错误文件名格式为：新建文件夹 
+2022-04-24 10:04:34 [2040][15] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] ERROR  D:\IDEAtask1\out\artifacts\IDEAtask1_jar\src\filter.xml (系统找不到指定的路径。)
+    at  java.io.FileInputStream.open0(Native Method)
+    at  java.io.FileInputStream.open(Unknown Source)
+    at  java.io.FileInputStream.<init>(Unknown Source)
+    at  java.io.FileInputStream.<init>(Unknown Source)
+    at  sun.net.www.protocol.file.FileURLConnection.connect(Unknown Source)
+    at  sun.net.www.protocol.file.FileURLConnection.getInputStream(Unknown Source)
+    at  com.sun.org.apache.xerces.internal.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+    at  com.sun.org.apache.xerces.internal.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+    at  com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+    at  com.sun.org.apache.xerces.internal.parsers.XML11Configuration.parse(Unknown Source)
+    at  com.sun.org.apache.xerces.internal.parsers.XMLParser.parse(Unknown Source)
+    at  com.sun.org.apache.xerces.internal.parsers.DOMParser.parse(Unknown Source)
+    at  com.sun.org.apache.xerces.internal.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+    at  javax.xml.parsers.DocumentBuilder.parse(Unknown Source)
+    at  cn.com.unary.module.FilterFile.getFilterList(FilterFile.java:48)
+    at  cn.com.unary.module.FilterFile.filteredFile(FilterFile.java:82)
+    at  cn.com.unary.module.Compare.latestVersion(Compare.java:20)
+    at  cn.com.unary.controller.WindowsController.fileController(WindowsController.java:19)
+    at  cn.com.unary.view.Window.lambda$new$2(Window.java:85)
+    at  javax.swing.AbstractButton.fireActionPerformed(Unknown Source)
+    at  javax.swing.AbstractButton$Handler.actionPerformed(Unknown Source)
+    at  javax.swing.DefaultButtonModel.fireActionPerformed(Unknown Source)
+    at  javax.swing.DefaultButtonModel.setPressed(Unknown Source)
+    at  javax.swing.plaf.basic.BasicButtonListener.mouseReleased(Unknown Source)
+    at  java.awt.Component.processMouseEvent(Unknown Source)
+    at  javax.swing.JComponent.processMouseEvent(Unknown Source)
+    at  java.awt.Component.processEvent(Unknown Source)
+    at  java.awt.Container.processEvent(Unknown Source)
+    at  java.awt.Component.dispatchEventImpl(Unknown Source)
+    at  java.awt.Container.dispatchEventImpl(Unknown Source)
+    at  java.awt.Component.dispatchEvent(Unknown Source)
+    at  java.awt.LightweightDispatcher.retargetMouseEvent(Unknown Source)
+    at  java.awt.LightweightDispatcher.processMouseEvent(Unknown Source)
+    at  java.awt.LightweightDispatcher.dispatchEvent(Unknown Source)
+    at  java.awt.Container.dispatchEventImpl(Unknown Source)
+    at  java.awt.Window.dispatchEventImpl(Unknown Source)
+    at  java.awt.Component.dispatchEvent(Unknown Source)
+    at  java.awt.EventQueue.dispatchEventImpl(Unknown Source)
+    at  java.awt.EventQueue.access$500(Unknown Source)
+    at  java.awt.EventQueue$3.run(Unknown Source)
+    at  java.awt.EventQueue$3.run(Unknown Source)
+    at  java.security.AccessController.doPrivileged(Native Method)
+    at  java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+    at  java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+    at  java.awt.EventQueue$4.run(Unknown Source)
+    at  java.awt.EventQueue$4.run(Unknown Source)
+    at  java.security.AccessController.doPrivileged(Native Method)
+    at  java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(Unknown Source)
+    at  java.awt.EventQueue.dispatchEvent(Unknown Source)
+    at  java.awt.EventDispatchThread.pumpOneEventForFilters(Unknown Source)
+    at  java.awt.EventDispatchThread.pumpEventsForFilter(Unknown Source)
+    at  java.awt.EventDispatchThread.pumpEventsForHierarchy(Unknown Source)
+    at  java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+    at  java.awt.EventDispatchThread.pumpEvents(Unknown Source)
+    at  java.awt.EventDispatchThread.run(Unknown Source)
+ 
+2022-04-24 10:14:26 [6308][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时  中错误文件名格式为：新建文件夹 
+2022-04-24 10:19:26 [14572][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时  中错误文件名格式为：新建文件夹 
+2022-04-24 10:26:28 [1944][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-24 10:26:28 [1944][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-24 10:26:28 [1944][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-24 10:26:28 [1944][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-24 10:27:37 [5624][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-24 10:27:37 [5624][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-24 10:27:37 [5624][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-24 10:27:37 [5624][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-24 10:33:00 [15336][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-24 10:33:00 [15336][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-24 10:33:00 [15336][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-24 10:33:00 [15336][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-24 10:33:13 [15336][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时  中错误文件名格式为：新建文件夹 
+2022-04-24 10:36:27 [7632][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-24 10:36:27 [7632][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-24 10:36:27 [7632][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-24 10:36:27 [7632][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-24 10:37:16 [7632][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  sqlserver定时  中错误文件名格式为：新建文件夹 
+2022-04-24 10:46:36 [5016][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  客户端: 为空文件 
+2022-04-24 10:47:51 [5780][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  客户端: 为空文件 
+2022-04-24 10:48:07 [5780][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时  中错误文件名格式为：新建文件夹 
+2022-04-24 10:48:13 [5780][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-24 10:48:13 [5780][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-24 10:48:13 [5780][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-24 10:48:13 [5780][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-24 10:51:02 [9764][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-24 10:51:02 [9764][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-24 10:51:02 [9764][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-24 10:51:02 [9764][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-24 10:51:07 [9764][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-24 10:51:07 [9764][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-24 10:51:07 [9764][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-24 10:51:07 [9764][15] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-25 15:30:47 [9404][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时  中错误文件名格式为：新建文件夹 
+2022-04-25 15:31:02 [9404][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-25 15:31:02 [9404][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-25 15:31:02 [9404][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-25 15:31:02 [9404][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-25 16:03:35 [18644][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时  中错误文件名格式为：新建文件夹 
+2022-04-25 16:03:55 [18644][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时  中错误文件名格式为：新建文件夹 
+2022-04-25 16:05:21 [11624][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时 中错误文件名格式为：新建文件夹 
+2022-04-25 16:06:08 [2864][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时 中错误文件名格式为：新建文件夹 
+2022-04-25 16:06:29 [2864][16] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时 中错误文件名格式为：新建文件夹 
+2022-04-25 16:21:23 [7504][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-25 16:29:15 [4808][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-25 16:29:15 [4808][1] [main cn.com.unary.Main] INFO  进入:Main类main 
+2022-04-25 16:29:46 [12876][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-25 16:29:46 [12876][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
+2022-04-25 16:35:18 [16120][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-25 16:35:18 [16120][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
+2022-04-25 16:35:35 [16120][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO  进入：FilterFile 中的 getFilterList方法 
+2022-04-25 16:35:35 [16120][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  进入：Compare 中的 latestVersion方法
+2022-04-25 16:35:35 [16120][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时 中错误文件名格式为：新建文件夹 
+2022-04-26 13:14:30 [18708][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-26 13:14:30 [18708][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
+2022-04-26 15:04:42 [6672][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-26 15:04:42 [6672][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
+2022-04-26 15:05:13 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO  进入：FilterFile 中的 getFilterList方法 
+2022-04-26 15:05:13 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO   进入：FilterFile 中的 filteredFile方法 
+2022-04-26 15:05:13 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  进入：Compare 中的 latestVersion方法 
+2022-04-26 15:05:13 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时 中错误文件名格式为：新建文件夹 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO  进入：FilterFile 中的 getFilterList方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO   进入：FilterFile 中的 filteredFile方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  进入：Compare 中的 latestVersion方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  20131212目录创建成功！ 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  20131119目录创建成功！ 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  pdb目录创建成功！ 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  20140217目录创建成功！ 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  pdb目录创建成功！ 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  vc9目录创建成功！ 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  20131025目录创建成功！ 
+2022-04-26 15:05:41 [6672][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:46:23 [16792][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-26 15:46:23 [16792][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
+2022-04-26 15:46:42 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO  进入：FilterFile 中的 getFilterList方法 
+2022-04-26 15:46:42 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO   进入：FilterFile 中的 filteredFile方法 
+2022-04-26 15:46:42 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  进入：Compare 中的 latestVersion方法 
+2022-04-26 15:46:42 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] ERROR  oracle定时 中错误文件名格式为：新建文件夹 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO  进入：FilterFile 中的 getFilterList方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO   进入：FilterFile 中的 filteredFile方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  进入：Compare 中的 latestVersion方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:47:02 [16792][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:05 [17740][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-26 15:49:05 [17740][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO  进入：FilterFile 中的 getFilterList方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.FilterFile] INFO   进入：FilterFile 中的 filteredFile方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  进入：Compare 中的 latestVersion方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\oracle定时\20131212 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sqlserver定时\20131119 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\sybase\20140217 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Compare] INFO  D:\task1\源文件测试\test-测试\20131025 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:27 [17740][17] [AWT-EventQueue-0 cn.com.unary.module.Copy] INFO  进入：Copy 中的 Sour2DestCopy方法 
+2022-04-26 15:49:54 [9164][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-26 15:49:54 [9164][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
+2022-04-26 15:50:06 [8116][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-26 15:50:06 [8116][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
+2022-04-26 15:50:16 [1040][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-26 15:50:16 [1040][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
+2022-04-26 15:50:23 [18060][1] [main cn.com.unary.Main] INFO  成功找到log4j.xml文件！ 
+2022-04-26 15:50:23 [18060][1] [main cn.com.unary.Main] INFO  进入:Main类 中的 main方法 
